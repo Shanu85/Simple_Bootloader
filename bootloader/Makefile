@@ -1,4 +1,4 @@
 compile:
-	nasm bootloader_2019104.asm -f bin -o bootloader_2019104.bin
+	nasm bootloader.asm -f bin -o bootloader.bin
 run: compile
-	qemu-system-x86_64 bootloader_2019104.bin
+	qemu-system-x86_64 bootloader.bin
